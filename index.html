@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">    
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="shortcut icon" href="src/pokeball.jpg" type="image/x-icon">       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=BhuTuka+Expanded+One&family=Bungee&family=Fredoka&family=League+Gothic&family=Patrick+Hand&family=Roboto+Mono:ital,wght@1,500&family=Roboto:ital,wght@0,400;1,300&family=Shizuru&family=Work+Sans:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=BhuTuka+Expanded+One&family=Bungee&family=Fredoka&family=Patrick+Hand&family=Roboto+Mono:ital,wght@1,500&family=Roboto:ital,wght@0,400;1,300&family=Shizuru&family=Work+Sans:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+        <link href="css/estilo.css" media="only screen and (max-width: 2068px)" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/688a818180.js" crossorigin="anonymous"></script>
+        <title>API de Pokemon</title>
+    </head>
+    <body>
+        <h1>Pokedex</h1>
+        <div class="principal">
+            <div class="izquierda">            
+                
+
+                <div class="caja">
+                    <input type="text"  id="pokeName" name="pokeName" placeholder="Ingresa el nombre">
+                </div>
+                
+                <div class="btn">
+                    <button class="boton" onclick="fetchPokemon()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="result">
+                    <img src="src/pokebola.png" alt="Pokemon" id="pokeImg" width="150px"><br><!--Imagen de pokebola-->
+                </div>
+                <div class="marco">
+                </div>
+                <div class="marco_a">
+                </div> 
+                <div class="circulo"></div>
+                <div class="circulo_1"></div>
+                <div class="circulo_2"></div>                
+                <div class="circulo_3"></div>
+                <div class="circulo_4"></div>
+                <div class="circulo_5"></div>
+                <div class="circulo_6"></div>
+                <div class="rectangulo_1"></div>
+                <div class="rectangulo_2"></div>
+            </div>
+            <div class="medio">
+                <div class="anillo_a">
+                </div>
+                <div class="anillo_b">
+                </div>
+            </div>
+            <div class="derecha">
+                <div class="result">
+                    <table>
+                        <tr>
+                            <td><h4 class="Nom">Nombre:</h4></td>
+                            <td><p id="pokeNam" class="res"></p></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="Nom">Tipo:</h4></td>
+                            <td><p id="pokeTip" class="res"></p></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="Nom">Movimientos:</h4></td>
+                            <td><p id="pokeMov" class="res"></p></td>
+                        </tr>
+                        <tr>
+                            <td><h4 class="Nom">Estadisticas:</h4></td>
+                            <td><p id="pokeEst" class="res"></p></td>
+                        </tr>
+                    </table>
+  
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+    <footer>
+        <script src="js/consultarAPI.js"></script>
+    </footer>
+</html>

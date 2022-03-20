@@ -1,0 +1,271 @@
+
+.principal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.izquierda{
+    height:520px;
+    background-color:#E74C3C;
+    float:left;
+    width:30%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    border-color: #641E16;
+}
+.izquierda .result{
+    width: 284px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 60px;
+    background-color: #fff; 
+    border-style: solid;
+    border-color: #641E16;
+}
+
+.izquierda .caja{
+    width: 284px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.izquierda .btn{
+     margin-top: -176px;
+    margin-left: 280px;
+}
+.izquierda .marco{
+    margin-top: -369px;
+    height:30px;
+    background-color:#CD1111;
+    width: 393px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.izquierda .marco_a{
+    margin-top: 0px;
+    height:40px;
+    background-color:#CD1111;
+    width: 197.5px;
+    border-bottom-right-radius: 20px;
+ 
+}
+.circulo {
+    margin-top: -65px;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #E0E3E5;
+}
+.circulo_1 {
+    margin-top: -50px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#8BDBFE;
+}
+.circulo_2 {
+    margin-top: -40px;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#fff;
+}
+.circulo_3 {
+    margin-top: -30px;
+    margin-left: 90px;
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#FA0101;
+    
+}
+.circulo_4 {
+    margin-top: -20px;
+    margin-left: 120px;
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#FFF81E;
+    
+}
+.circulo_5 {
+    margin-top: -20px;
+    margin-left: 150px;
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#5CD74E;
+}
+.circulo_6 {
+    margin-top: 390px;
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#fd3;
+    border-style: solid;
+    border-color: #935116;
+}
+.rectangulo_1{
+    background:#fff;
+    height: 15px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 110px;
+    margin-top: -30px;
+}
+.rectangulo_2{
+    background:#fff;
+    height: 15px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 210px;
+    margin-top: -15px;
+}
+input[type="text"]{
+    border-radius: 10px;
+    border-color: black;
+    height: 25px;
+    width: 196px;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+.boton{
+    height: 29px;
+    width: 35px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    border: 0px;
+
+}
+
+.medio{
+    height:520px;
+    background-color:#E74C3C;
+    float:left;
+    width: 4%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: #FA0101;
+    border-style: solid;
+    border-color: #641E16;
+}
+.medio .anillo_a{
+    background-color:#FA0101;
+    border-style: solid;
+    border-color: #641E16;
+    float:left;
+    width: 60px;
+    height:20px;
+    margin-top: 60px; 
+}
+.medio .anillo_b{
+    background-color:#FA0101;
+    float:left;
+    width: 60px;
+    height:20px;
+    margin-top: 360px; 
+    border-style: solid;
+    border-color: #641E16;
+}
+.derecha{
+    background-color:#E74C3C;
+    float:left;
+    width:30%;
+    height:520px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-style: solid;
+    border-color: #641E16;
+}
+.derecha .result{
+    width: 314px;
+    height: 430px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #000;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .izquierda, .medio, .derecha {
+      width: 100%;
+    }
+  }
+#pokeImg{
+    margin-top: 34px;
+    margin-left: 60px;
+ 
+}
+.Nom{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 26px;
+
+}
+.res{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Work Sans', sans-serif;;
+    font-size: 18px;
+    color: red;
+}
+#pokeTip{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: red;
+}
+#pokeMov{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: red;
+}
+#pokeEst{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: red;
+}
